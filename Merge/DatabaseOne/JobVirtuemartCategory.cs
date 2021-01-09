@@ -1,10 +1,11 @@
 ﻿using System;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JobVirtuemartCategory
+    public partial class JobVirtuemartCategory : EntityUtilities
     {
         public ushort VirtuemartCategoryId { get; set; }
         public ushort VirtuemartVendorId { get; set; }

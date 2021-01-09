@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosWishlist
+    public partial class JosWishlist  : EntityUtilities
     {
         public int Id { get; set; }
         public int VirtuemartProductId { get; set; }

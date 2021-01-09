@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosUser
+    public partial class JosUser : EntityUtilities
     {
         public int Id { get; set; }
         public string Name { get; set; }

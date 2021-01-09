@@ -7,7 +7,7 @@ namespace Merge.DatabaseOne
 {
     public partial class JosContent
     {
-        public uint Id { get; set; }
+        public int Id { get; set; }
         public uint AssetId { get; set; }
         public string Title { get; set; }
         public string Alias { get; set; }

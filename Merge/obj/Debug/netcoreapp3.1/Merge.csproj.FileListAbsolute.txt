@@ -65,3 +65,4 @@ C:\Users\Admin\Desktop\merge\Merge\obj\Debug\netcoreapp3.1\Merge.pdb
 C:\Users\Admin\Desktop\merge\Merge\obj\Debug\netcoreapp3.1\Merge.genruntimeconfig.cache
 C:\Users\Admin\Desktop\merge\Merge\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Admin\Desktop\merge\Merge\obj\Debug\netcoreapp3.1\Merge.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\Merge\Merge\bin\Debug\netcoreapp3.1\AutoMapper.dll

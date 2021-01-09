@@ -7,14 +7,14 @@ namespace Merge.DatabaseTwo
 {
     public partial class JosContent
     {
-        public uint Id { get; set; }
+        public int Id { get; set; }
         public uint AssetId { get; set; }
         public string Title { get; set; }
         public string Alias { get; set; }
         public string Introtext { get; set; }
         public string Fulltext { get; set; }
         public sbyte State { get; set; }
-        public uint Catid { get; set; }
+        public int Catid { get; set; }
         public DateTime Created { get; set; }
         public uint CreatedBy { get; set; }
         public string CreatedByAlias { get; set; }

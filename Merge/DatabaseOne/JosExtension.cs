@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosExtension
+    public partial class JosExtension : EntityUtilities
     {
         public int ExtensionId { get; set; }
         public int PackageId { get; set; }

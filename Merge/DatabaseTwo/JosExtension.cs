@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosExtension
+    public partial class JosExtension : EntityUtilities
     {
         public int ExtensionId { get; set; }
         public string Name { get; set; }

@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosVirtuemartOrder
+    public partial class JosVirtuemartOrder : EntityUtilities
     {
-        public uint VirtuemartOrderId { get; set; }
-        public uint VirtuemartUserId { get; set; }
+        public int VirtuemartOrderId { get; set; }
+        public int VirtuemartUserId { get; set; }
         public ushort VirtuemartVendorId { get; set; }
         public string OrderNumber { get; set; }
         public string CustomerNumber { get; set; }
@@ -32,7 +33,7 @@ namespace Merge.DatabaseTwo
         public string OrderStatus { get; set; }
         public short? UserCurrencyId { get; set; }
         public decimal UserCurrencyRate { get; set; }
-        public uint? VirtuemartPaymentmethodId { get; set; }
+        public int? VirtuemartPaymentmethodId { get; set; }
         public uint? VirtuemartShipmentmethodId { get; set; }
         public string CustomerNote { get; set; }
         public string OcNote { get; set; }

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosVirtuemartVmuser
+    public partial class JosVirtuemartVmuser : EntityUtilities
     {
-        public uint VirtuemartUserId { get; set; }
+        public int VirtuemartUserId { get; set; }
         public ushort VirtuemartVendorId { get; set; }
         public bool UserIsVendor { get; set; }
         public string CustomerNumber { get; set; }

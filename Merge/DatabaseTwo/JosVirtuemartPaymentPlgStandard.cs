@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosVirtuemartPaymentPlgStandard
+    public partial class JosVirtuemartPaymentPlgStandard : EntityUtilities
     {
         public string EmailCurrency { get; set; }
-        public uint Id { get; set; }
-        public uint? VirtuemartOrderId { get; set; }
+        public int Id { get; set; }
+        public int? VirtuemartOrderId { get; set; }
         public string OrderNumber { get; set; }
         public uint? VirtuemartPaymentmethodId { get; set; }
         public string PaymentName { get; set; }

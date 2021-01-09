@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosVirtuemartPaymentmethod
+    public partial class JosVirtuemartPaymentmethod : EntityUtilities
     {
-        public uint VirtuemartPaymentmethodId { get; set; }
+        public int VirtuemartPaymentmethodId { get; set; }
         public short VirtuemartVendorId { get; set; }
         public int PaymentJpluginId { get; set; }
         public string Slug { get; set; }

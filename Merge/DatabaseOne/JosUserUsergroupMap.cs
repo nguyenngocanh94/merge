@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosUserUsergroupMap
+    public partial class JosUserUsergroupMap : EntityUtilities
     {
-        public uint UserId { get; set; }
-        public uint GroupId { get; set; }
+        public int UserId { get; set; }
+        public int GroupId { get; set; }
     }
 }

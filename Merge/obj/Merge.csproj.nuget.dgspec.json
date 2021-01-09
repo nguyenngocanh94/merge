@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj": {}
+    "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj": {
+    "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj",
         "projectName": "Merge",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj",
+        "projectPath": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

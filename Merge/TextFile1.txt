@@ -1,1 +1,65 @@
-﻿1. table 
+﻿1. jos_modules_menu : moduleid, menuid
+2. jos_virtuemart_adminmenuentries: dupplicated => DONE
+2. jos_virtuemart_vendors: dupplicated => DONE
+2. jos_virtuemart_countries: dupplicated => DONE
+2. jos_virtuemart_configs: dupplicated => DONE
+2. jos_virtuemart_currencies: dupplicated => DONE
+2. jos_virtuemart_customs: self and static => DONE
+2. jos_virtuemart_manufacturercategories + language: dupplicated => DONE
+2. jos_virtuemart_manufacturers + language: static => DONE
+2. jos_virtuemart_medias : static, remove the first (branch image) => DONE
+2. jos_virtuemart_states : dupplicated => DONE
+2. jos_virtuemart_categories : dupplicated => DONE
+2. jos_modules_menu : dupplicated => DONE
+2. jos_virtuemart_category_categories : join table (self) => DONE
+2. jos_virtuemart_category_medias : join table => DONE
+2. jos_virtuemart_coupons : static => DONE
+2. jos_virtuemart_modules : dupplicate => DONE
+2. jos_virtuemart_shoppergroups : dupplicated => DONE
+2. jos_virtuemart_worldzones : dupplicated => DONE
+2. jos_weblinks : dupplicated => DONE
+2. jos_wf_profiles : dupplicated => DONE
+2. jos_virtuemart_calc_countries : dupplicated => DONE
+2. jos_virtuemart_calc_shoppergroups : dupplicated => DONE
+2. jos_virtuemart_product_custom_plg_param_values : dupplicated => DONE
+2. jos_virtuemart_product_custom_plg_istraxx_download : log table ? consider necessary
+2. jos_virtuemart_calcs : static => DONE
+2. jos_virtuemart_calc_categories : join table => DONE
+2. jos_usergroups : dupplicated => DONE
+====================================================
+2. jos_virtuemart_products : static => DONE
+2. jos_virtuemart_product_prices : join table => DONE
+2. jos_virtuemart_product_relations : join table => DONE
+2. jos_virtuemart_product_manufacturers : join table => DONE
+2. jos_virtuemart_product_customfields : join table => DONE
+2. jos_virtuemart_product_categories : join table => DONE
+2. jos_virtuemart_product_medias : join table => DONE
+====================================================
+1.jos_virtuemart_userfields : dupplicated  => DONE
+1.jos_virtuemart_userfield_values : dupplicated  => DONE
+1.jos_virtuemart_vendor_users : dupplicated  => DONE
+1.jos_virtuemart_userinfos : static  => DONE
+1.jos_virtuemart_vmusers : static  => DONE
+1.jos_virtuemart_vmuser_shoppergroups : static  => DONE
+1.jos_virtuemart_waitingusers : dupplicated  => DONE
+1.jos_virtuemart_carts : join table => DONE
+1.jos_user_usergroup_map : join table => DONE
+================================================
+1.jos_virtuemart_orders: static => done
+1.jos_virtuemart_orderstates: dupplicated => DONE
+1.jos_virtuemart_order_userinfos: join table => DONE
+1.jos_virtuemart_order_items: join table => DONE
+1.jos_virtuemart_order_histories: join table => DONE
+1.jos_virtuemart_order_calc_rules: join table => DONE
+1.jos_virtuemart_invoices: join table => DONE
+1.jos_virtuemart_payment_plg_alatak_monetico: join table => DONE
+1.jos_virtuemart_payment_plg_alatak_sips: join table => DONE
+1.jos_virtuemart_payment_plg_authorizenet: dupplicated => DONE
+1.jos_virtuemart_payment_plg_heidelpay: dupplicated => DONE
+1.jos_virtuemart_payment_plg_standard:join table => DONE
+1.jos_virtuemart_payment_plg_paypal: join table => DONE
+1.jos_virtuemart_paymentmethod_shoppergroups: dupplicated => DONE
+1.jos_virtuemart_ratings: dupplicated => DONE
+1.jos_virtuemart_rating_reviews: dupplicated => DONE
+=================================================
+1.jos_virtuemart_paymentmethods: static + language => DONE

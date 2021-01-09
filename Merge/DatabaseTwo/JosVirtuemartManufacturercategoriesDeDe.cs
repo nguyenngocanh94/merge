@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosVirtuemartManufacturercategoriesDeDe
+    public partial class JosVirtuemartManufacturercategoriesDeDe  : EntityUtilities
     {
         public uint VirtuemartManufacturercategoriesId { get; set; }
         public string MfCategoryName { get; set; }

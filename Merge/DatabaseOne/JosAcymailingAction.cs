@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosAcymailingAction
+    public partial class JosAcymailingAction : EntityUtilities
     {
         public uint ActionId { get; set; }
         public string Name { get; set; }

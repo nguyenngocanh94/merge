@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseTwo
 {
-    public partial class JosVirtuemartProductCategory
+    public partial class JosVirtuemartProductCategory : EntityUtilities
     {
-        public uint Id { get; set; }
-        public uint VirtuemartProductId { get; set; }
-        public uint VirtuemartCategoryId { get; set; }
+        public int Id { get; set; }
+        public int VirtuemartProductId { get; set; }
+        public int VirtuemartCategoryId { get; set; }
         public int Ordering { get; set; }
     }
 }

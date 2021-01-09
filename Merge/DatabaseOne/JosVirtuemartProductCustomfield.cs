@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosVirtuemartProductCustomfield
+    public partial class JosVirtuemartProductCustomfield : EntityUtilities
     {
-        public uint VirtuemartCustomfieldId { get; set; }
+        public int VirtuemartCustomfieldId { get; set; }
         public int VirtuemartProductId { get; set; }
         public int VirtuemartCustomId { get; set; }
         public string CustomfieldValue { get; set; }

@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using Merge.Extensions;
 
 #nullable disable
 
 namespace Merge.DatabaseOne
 {
-    public partial class JosVirtuemartPaymentPlgAlatakMonetico
+    public partial class JosVirtuemartPaymentPlgAlatakMonetico : EntityUtilities
     {
-        public uint Id { get; set; }
-        public uint? VirtuemartOrderId { get; set; }
+        public int Id { get; set; }
+        public int? VirtuemartOrderId { get; set; }
         public string OrderNumber { get; set; }
         public uint? VirtuemartPaymentmethodId { get; set; }
         public string PaymentName { get; set; }
