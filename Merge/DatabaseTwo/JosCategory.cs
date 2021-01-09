@@ -9,7 +9,7 @@ namespace Merge.DatabaseTwo
     {
         public int Id { get; set; }
         public uint AssetId { get; set; }
-        public uint ParentId { get; set; }
+        public int ParentId { get; set; }
         public int Lft { get; set; }
         public int Rgt { get; set; }
         public uint Level { get; set; }
