@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.AssemblyInfo.cs
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseTwo\bin\Debug\netcoreapp3.1\DatabaseTwo.deps.json
+C:\Users\Admin\Desktop\merge\DatabaseTwo\bin\Debug\netcoreapp3.1\DatabaseTwo.dll
+C:\Users\Admin\Desktop\merge\DatabaseTwo\bin\Debug\netcoreapp3.1\DatabaseTwo.pdb
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.dll
+C:\Users\Admin\Desktop\merge\DatabaseTwo\obj\Debug\netcoreapp3.1\DatabaseTwo.pdb

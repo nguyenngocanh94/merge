@@ -9,6 +9,8 @@
       "Merge/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "DatabaseOne": "1.0.0",
+          "DatabaseTwo": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
@@ -233,7 +235,25 @@
           }
         }
       },
-      "System.Reflection.Emit/4.7.0": {}
+      "System.Reflection.Emit/4.7.0": {},
+      "DatabaseOne/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
+        },
+        "runtime": {
+          "DatabaseOne.dll": {}
+        }
+      },
+      "DatabaseTwo/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
+        },
+        "runtime": {
+          "DatabaseTwo.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -402,6 +422,16 @@
       "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "path": "system.reflection.emit/4.7.0",
       "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "DatabaseOne/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DatabaseTwo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

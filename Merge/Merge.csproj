@@ -12,4 +12,9 @@
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DatabaseOne\DatabaseOne.csproj" />
+      <ProjectReference Include="..\DatabaseTwo\DatabaseTwo.csproj" />
+    </ItemGroup>
+
 </Project>

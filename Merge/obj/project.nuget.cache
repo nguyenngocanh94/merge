@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SC9m+AECa+EdQriKxFKhi5l20wU3t8vLeJLwsgThNggrpHFUL/RXADGTDwg1yhwn9yJkLgM7xtsV/1YyEWknNA==",
+  "dgSpecHash": "ddUgv3YC2QtGXv02o1zXMUYNhiDzdSa3FRvZkmWfDAvw1P0y/HJrKDyCUoadXoOJ7jLbu95ADso5muNxkGmFnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

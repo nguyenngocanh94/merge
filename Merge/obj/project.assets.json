@@ -265,6 +265,34 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "DatabaseOne/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
+        },
+        "compile": {
+          "bin/placeholder/DatabaseOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DatabaseOne.dll": {}
+        }
+      },
+      "DatabaseTwo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
+        },
+        "compile": {
+          "bin/placeholder/DatabaseTwo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DatabaseTwo.dll": {}
+        }
       }
     }
   },
@@ -872,11 +900,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DatabaseOne/1.0.0": {
+      "type": "project",
+      "path": "../DatabaseOne/DatabaseOne.csproj",
+      "msbuildProject": "../DatabaseOne/DatabaseOne.csproj"
+    },
+    "DatabaseTwo/1.0.0": {
+      "type": "project",
+      "path": "../DatabaseTwo/DatabaseTwo.csproj",
+      "msbuildProject": "../DatabaseTwo/DatabaseTwo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
+      "DatabaseOne >= 1.0.0",
+      "DatabaseTwo >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2"
@@ -888,24 +928,33 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj",
       "projectName": "Merge",
-      "projectPath": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\Merge.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\Merge.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\RiderProjects\\Merge\\Merge\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\merge\\Merge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\merge\\DatabaseOne\\DatabaseOne.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\DatabaseOne\\DatabaseOne.csproj"
+            },
+            "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -949,7 +998,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
