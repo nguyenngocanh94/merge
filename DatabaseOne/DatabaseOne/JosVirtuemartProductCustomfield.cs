@@ -1,12 +1,13 @@
 ﻿using System;
 using DatabaseOne.Extensions;
+using DatabaseTwo.DatabaseTwo;
 
 
 #nullable disable
 
 namespace DatabaseOne.DatabaseOne
 {
-    public partial class JosVirtuemartProductCustomfield : EntityUtilities
+    public partial class JosVirtuemartProductCustomfield : EntityUtilities, IHiddenParam
     {
         public int VirtuemartCustomfieldId { get; set; }
         public int VirtuemartProductId { get; set; }
@@ -27,5 +28,27 @@ namespace DatabaseOne.DatabaseOne
         public DateTime LockedOn { get; set; }
         public int LockedBy { get; set; }
         public int Ordering { get; set; }
+        public int GetHidden()
+        {
+            // always be in the first
+            if (CustomfieldParams.Contains("media_id="))
+            {
+                int index = CustomfieldParams.IndexOf("|", StringComparison.Ordinal);
+                string mediaQuery = CustomfieldParams.Substring(0, index);
+                int mediaId = int.Parse(mediaQuery.Substring(10, mediaQuery.Length - 11));
+                return mediaId;
+            }
+
+            return 0;
+        }
+
+        public void SetHidden(int goInt, int plus)
+        {
+            if (goInt!= 0)
+            {
+                var replace = CustomfieldParams.Replace(goInt.ToString(), (goInt + plus).ToString());
+                CustomfieldParams = replace;
+            }
+        }
     }
 }

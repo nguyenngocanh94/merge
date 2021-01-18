@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\merge\DatabaseTarget\bin\Debug\netcoreapp3.1\DatabaseTarget.deps.json
+C:\Users\Admin\Desktop\merge\DatabaseTarget\bin\Debug\netcoreapp3.1\DatabaseTarget.dll
+C:\Users\Admin\Desktop\merge\DatabaseTarget\bin\Debug\netcoreapp3.1\DatabaseTarget.pdb
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.AssemblyInfo.cs
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.dll
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.pdb
+C:\Users\Admin\Desktop\merge\DatabaseTarget\bin\Debug\netcoreapp3.1\DatabaseTarget.runtimeconfig.json
+C:\Users\Admin\Desktop\merge\DatabaseTarget\bin\Debug\netcoreapp3.1\DatabaseTarget.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\merge\DatabaseTarget\obj\Debug\netcoreapp3.1\DatabaseTarget.genruntimeconfig.cache

@@ -105,7 +105,7 @@ namespace Merge
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProduct>(i => i.VirtuemartProductId,
                             "VirtuemartProductId", "ProductParentId");
                 #region JosVirtuemartProduct language
-
+                
                 engine
                     .MergeLanguage<JosVirtuemartProductsEnGb,
                         DatabaseTwo.DatabaseTwo.JosVirtuemartProductsEnGb>(i => i.VirtuemartProductId,
@@ -114,7 +114,7 @@ namespace Merge
                     .MergeLanguage<JosVirtuemartProductsFrFr,
                         DatabaseTwo.DatabaseTwo.JosVirtuemartProductsFrFr>(i => i.VirtuemartProductId,
                         "VirtuemartProductId", maxProduct);
-
+                
                 #endregion
                 try
                 {
@@ -141,7 +141,7 @@ namespace Merge
                             .MergeStatic<JosVirtuemartPaymentmethod,
                                     DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethod>
                                 (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId");
-
+                    
                     // run parallel
                     
                     var maxCategory =
@@ -149,14 +149,14 @@ namespace Merge
                             .MergeStatic<JosVirtuemartCategory,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartCategory>(i => i.VirtuemartCategoryId,
                                 "VirtuemartCategoryId");
-
+                    
                     engine
                         .MergeJoinSelfTable<JosVirtuemartCategoryCategory,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartCategoryCategory>(i => i.Id,
                             "Id", "CategoryParentId", "CategoryChildId", maxCategory);
-
+                    
                     #region JosVirtuemartCategory language
-
+                    
                     engine
                         .MergeLanguage<JosVirtuemartCategory,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartCategory>(i => i.VirtuemartCategoryId,
@@ -165,11 +165,11 @@ namespace Merge
                         .MergeLanguage<JosVirtuemartCategory,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartCategory>(i => i.VirtuemartCategoryId,
                             "VirtuemartCategoryId", maxCategory);
-
+                    
                     #endregion
 
                     #region JosVirtuemartPaymentmethod language
-
+                    
                     engine
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsEnGb,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsEnGb>
@@ -178,31 +178,31 @@ namespace Merge
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsEsE,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsEsE>
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
-
+                    
                     engine
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsFrFr,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsFrFr>
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
-
+                    
                     engine
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsItIt,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsItIt>
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
-
+                    
                     engine
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsDeDe,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsDeDe>
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
-
+                    
                     engine
                         .MergeLanguageSlug<JosVirtuemartPaymentmethodsRuRu,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentmethodsRuRu>
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
-
+                    
                     #endregion
 
                     #region JosVirtuemartManufacturer language
-
+                    
                     engine
                         .MergeLanguage<JosVirtuemartManufacturersDeDe,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartManufacturersDeDe>(
@@ -223,13 +223,13 @@ namespace Merge
                         .MergeLanguage<JosVirtuemartManufacturersItIt,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartManufacturersItIt>(
                             i => i.VirtuemartManufacturerId, "VirtuemartManufacturerId", maxManufacture);
-
+                    
                     #endregion
 
                     
 
                     #region merge other type table
-
+                    
                     engine
                         .MergeJoinTable<JosVirtuemartCategoryMedia,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartCategoryMedia>(i => i.Id,
@@ -239,11 +239,11 @@ namespace Merge
                                 new Pair {Name = "VirtuemartCategoryId", Plus = maxCategory},
                                 new Pair {Name = "VirtuemartMediaId", Plus = maxMedia}
                             });
-
+                    
                     #endregion
-
+                    
                     #region Merge product Join table
-
+                    
                     engine
                         .MergeJoinTable<JosVirtuemartProductCategory,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductCategory>(
@@ -252,7 +252,7 @@ namespace Merge
                                 new Pair {Name = "VirtuemartProductId", Plus = maxProduct},
                                 new Pair {Name = "VirtuemartCategoryId", Plus = maxCategory}
                             });
-
+                    
                     engine
                         .MergeJoinTable<JosVirtuemartProductMedia,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductMedia>(
@@ -261,13 +261,13 @@ namespace Merge
                                 new Pair {Name = "VirtuemartProductId", Plus = maxProduct},
                                 new Pair {Name = "VirtuemartMediaId", Plus = maxMedia}
                             });
-
+                    
                     engine
                         .MergeJoinTable<JosVirtuemartProductPrice,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductPrice>(i => i.VirtuemartProductPriceId,
                             "VirtuemartProductPriceId",
                             new[] {new Pair() {Name = "VirtuemartProductId", Plus = maxProduct}});
-
+                    
                     engine
                         .MergeJoinTable<JosVirtuemartProductRelation,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductRelation>(i => i.Id,
@@ -279,150 +279,155 @@ namespace Merge
                             });
 
                     engine
-                        .MergeJoinTable<JosVirtuemartProductCustomfield,
+                        .MergeJoinTableCustom<JosVirtuemartProductCustomfield,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductCustomfield>(
                             i => i.VirtuemartCustomfieldId, "VirtuemartCustomfieldId",
                             new[]
                             {
                                 new Pair {Name = "VirtuemartProductId", Plus = maxProduct},
                                 new Pair {Name = "VirtuemartCustomId", Plus = maxCustom}
+                            }, 
+                            new Pair
+                            {
+                                Name = "",
+                                Plus = maxMedia
                             });
 
                     #endregion
 
-                    int maxCalc =
-                        engine
-                            .MergeStatic<JosVirtuemartCalc,
-                                DatabaseTwo.DatabaseTwo.JosVirtuemartCalc>(i => i.VirtuemartCalcId,
-                                "VirtuemartCalcId");
-                    engine
-                        .MergeJoinTable<JosVirtuemartCalcCategory,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartCalcCategory>(i => i.Id,
-                            "Id",
-                            new[]
-                            {
-                                new Pair {Name = "VirtuemartCalcId", Plus = maxCalc},
-                                new Pair {Name = "VirtuemartCategoryId", Plus = maxCategory}
-                            });
-
-
-                    #region JOS USER
-
-                    int maxJUser =
-                        engine.MergeStatic<JosUser, DatabaseTwo.DatabaseTwo.JosUser>(i => i.Id,
-                            (a) => true, "Id");
-
-                    int maxUser =
-                        engine
-                            .MergeJoinTable<JosVirtuemartVmuser,
-                                DatabaseTwo.DatabaseTwo.JosVirtuemartVmuser>(i => i.VirtuemartUserId,
-                                "VirtuemartUserId",
-                                new[] {new Pair {Name = "VirtuemartPaymentmethodId", Plus = maxPaymentMethod}});
-                    engine
-                        .MergeJoinTableS1<JosVirtuemartUserinfo,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartUserinfo>(i => i.VirtuemartUserinfoId,
-                            "VirtuemartUserinfoId", new[] {new Pair {Name = "VirtuemartUserId", Plus = maxUser}});
-                    engine
-                        .MergeJoinTable<JosVirtuemartVmuserShoppergroup,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartVmuserShoppergroup>(i => i.Id,
-                            null,
-                            new[]
-                            {
-                                new Pair {Name = "VirtuemartUserId", Plus = maxUser},
-                                new Pair {Name = "VirtuemartShoppergroupId", Plus = 0}
-                            });
-                    engine.MergeJoinTable<JosWishlist, DatabaseTwo.DatabaseTwo.JosWishlist>(
-                        i => i.Id, "Id", new[]
-                        {
-                            new Pair {Name = "VirtuemartProductId", Plus = maxProduct},
-                            new Pair {Name = "Userid", Plus = maxJUser}
-                        });
-
-                    engine
-                        .MergeJoinTable<JosVirtuemartCart, DatabaseTwo.DatabaseTwo.JosVirtuemartCart
-                        >(i => i.VirtuemartCartId, "VirtuemartCartId",
-                            new[] {new Pair {Name = "VirtuemartUserId", Plus = maxUser}});
-                    engine
-                        .MergeJoinTable<JosUserUsergroupMap,
-                            DatabaseTwo.DatabaseTwo.JosUserUsergroupMap>(null, null, new[]
-                        {
-                            new Pair {Name = "UserId", Plus = maxJUser},
-                            new Pair {Name = "GroupId", Plus = 0},
-                        });
-
-                    #endregion
-
-                    engine
-                        .MergeJoinTable<JosVirtuemartVendorMedia,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartVendorMedia>(i => i.Id, "Id", new[]
-                        {
-                            new Pair {Name = "VirtuemartMediaId", Plus = maxMedia},
-                        });
-
-                    #region Order
-
-                    int maxOrder =
-                        engine
-                            .MergeJoinTable<JosVirtuemartOrder,
-                                DatabaseTwo.DatabaseTwo.JosVirtuemartOrder>(
-                                i => i.VirtuemartOrderId,
-                                "VirtuemartOrderId", new[]
-                                {
-                                    new Pair {Name = "VirtuemartUserId", Plus = maxUser},
-                                    new Pair() {Name = "VirtuemartPaymentmethodId", Plus = maxPaymentMethod}
-                                });
-
-                    engine
-                        .MergeJoinTable<JosVirtuemartOrderUserinfo,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartOrderUserinfo>(i => i.VirtuemartOrderUserinfoId,
-                            "VirtuemartOrderUserinfoId",
-                            new[]
-                            {
-                                new Pair {Name = "VirtuemartOrderId", Plus = maxOrder},
-                                new Pair() {Name = "VirtuemartUserId", Plus = maxUser}
-                            });
-
-                    engine
-                        .MergeJoinTable<JosVirtuemartOrderItem,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartOrderItem>(i => i.VirtuemartOrderItemId,
-                            "VirtuemartOrderItemId",
-                            new[]
-                            {
-                                new Pair {Name = "VirtuemartOrderId", Plus = maxOrder},
-                                new Pair {Name = "VirtuemartProductId", Plus = maxProduct}
-                            });
-                    engine
-                        .MergeJoinTable<JosVirtuemartOrderHistory,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartOrderHistory>(i => i.VirtuemartOrderHistoryId,
-                            "VirtuemartOrderHistoryId", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-                    engine
-                        .MergeJoinTable<JosVirtuemartOrderCalcRule,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartOrderCalcRule>(i => i.VirtuemartOrderCalcRuleId,
-                            "VirtuemartOrderCalcRuleId",
-                            new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-
-                    int maxInvoice =
-                        engine
-                            .MergeJoinTable<JosVirtuemartInvoice,
-                                DatabaseTwo.DatabaseTwo.JosVirtuemartInvoice>(i => i.VirtuemartInvoiceId,
-                                "VirtuemartInvoiceId", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-
-                    engine.MergeJoinTable<JosVirtuemartPaymentPlgAlatakMonetico
-                        , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgAlatakMonetico>(i => i.Id,
-                        "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-
-                    engine.MergeJoinTable<JosVirtuemartPaymentPlgAlatakSip
-                        , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgAlatakSip>(i => i.Id,
-                        "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-                    engine.MergeJoinTable<JosVirtuemartPaymentPlgPaypal
-                        , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgPaypal>(i => i.Id,
-                        "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-
-                    engine.MergeJoinTable<JosVirtuemartPaymentPlgStandard
-                        , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgStandard>(i => i.Id,
-                        "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
-
-                    #endregion
+                     int maxCalc =
+                         engine
+                             .MergeStatic<JosVirtuemartCalc,
+                                 DatabaseTwo.DatabaseTwo.JosVirtuemartCalc>(i => i.VirtuemartCalcId,
+                                 "VirtuemartCalcId");
+                     engine
+                         .MergeJoinTable<JosVirtuemartCalcCategory,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartCalcCategory>(i => i.Id,
+                             "Id",
+                             new[]
+                             {
+                                 new Pair {Name = "VirtuemartCalcId", Plus = maxCalc},
+                                 new Pair {Name = "VirtuemartCategoryId", Plus = maxCategory}
+                             });
+                    
+                    
+                     #region JOS USER
+                    
+                     int maxJUser =
+                         engine.MergeStatic<JosUser, DatabaseTwo.DatabaseTwo.JosUser>(i => i.Id,
+                             (a) => true, "Id");
+                    
+                     int maxUser =
+                         engine
+                             .MergeJoinTable<JosVirtuemartVmuser,
+                                 DatabaseTwo.DatabaseTwo.JosVirtuemartVmuser>(i => i.VirtuemartUserId,
+                                 "VirtuemartUserId",
+                                 new[] {new Pair {Name = "VirtuemartPaymentmethodId", Plus = maxPaymentMethod}});
+                     engine
+                         .MergeJoinTableS1<JosVirtuemartUserinfo,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartUserinfo>(i => i.VirtuemartUserinfoId,
+                             "VirtuemartUserinfoId", new[] {new Pair {Name = "VirtuemartUserId", Plus = maxUser}});
+                     engine
+                         .MergeJoinTable<JosVirtuemartVmuserShoppergroup,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartVmuserShoppergroup>(i => i.Id,
+                             null,
+                             new[]
+                             {
+                                 new Pair {Name = "VirtuemartUserId", Plus = maxUser},
+                                 new Pair {Name = "VirtuemartShoppergroupId", Plus = 0}
+                             });
+                     engine.MergeJoinTable<JosWishlist, DatabaseTwo.DatabaseTwo.JosWishlist>(
+                         i => i.Id, "Id", new[]
+                         {
+                             new Pair {Name = "VirtuemartProductId", Plus = maxProduct},
+                             new Pair {Name = "Userid", Plus = maxJUser}
+                         });
+                    
+                     engine
+                         .MergeJoinTable<JosVirtuemartCart, DatabaseTwo.DatabaseTwo.JosVirtuemartCart
+                         >(i => i.VirtuemartCartId, "VirtuemartCartId",
+                             new[] {new Pair {Name = "VirtuemartUserId", Plus = maxUser}});
+                     engine
+                         .MergeJoinTable<JosUserUsergroupMap,
+                             DatabaseTwo.DatabaseTwo.JosUserUsergroupMap>(null, null, new[]
+                         {
+                             new Pair {Name = "UserId", Plus = maxJUser},
+                             new Pair {Name = "GroupId", Plus = 0},
+                         });
+                    
+                     #endregion
+                    
+                     engine
+                         .MergeJoinTable<JosVirtuemartVendorMedia,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartVendorMedia>(i => i.Id, "Id", new[]
+                         {
+                             new Pair {Name = "VirtuemartMediaId", Plus = maxMedia},
+                         });
+                    
+                     #region Order
+                    
+                     int maxOrder =
+                         engine
+                             .MergeJoinTable<JosVirtuemartOrder,
+                                 DatabaseTwo.DatabaseTwo.JosVirtuemartOrder>(
+                                 i => i.VirtuemartOrderId,
+                                 "VirtuemartOrderId", new[]
+                                 {
+                                     new Pair {Name = "VirtuemartUserId", Plus = maxUser},
+                                     new Pair() {Name = "VirtuemartPaymentmethodId", Plus = maxPaymentMethod}
+                                 });
+                    
+                     engine
+                         .MergeJoinTable<JosVirtuemartOrderUserinfo,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartOrderUserinfo>(i => i.VirtuemartOrderUserinfoId,
+                             "VirtuemartOrderUserinfoId",
+                             new[]
+                             {
+                                 new Pair {Name = "VirtuemartOrderId", Plus = maxOrder},
+                                 new Pair() {Name = "VirtuemartUserId", Plus = maxUser}
+                             });
+                    
+                     engine
+                         .MergeJoinTable<JosVirtuemartOrderItem,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartOrderItem>(i => i.VirtuemartOrderItemId,
+                             "VirtuemartOrderItemId",
+                             new[]
+                             {
+                                 new Pair {Name = "VirtuemartOrderId", Plus = maxOrder},
+                                 new Pair {Name = "VirtuemartProductId", Plus = maxProduct}
+                             });
+                     engine
+                         .MergeJoinTable<JosVirtuemartOrderHistory,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartOrderHistory>(i => i.VirtuemartOrderHistoryId,
+                             "VirtuemartOrderHistoryId", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                     engine
+                         .MergeJoinTable<JosVirtuemartOrderCalcRule,
+                             DatabaseTwo.DatabaseTwo.JosVirtuemartOrderCalcRule>(i => i.VirtuemartOrderCalcRuleId,
+                             "VirtuemartOrderCalcRuleId",
+                             new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                    
+                     int maxInvoice =
+                         engine
+                             .MergeJoinTable<JosVirtuemartInvoice,
+                                 DatabaseTwo.DatabaseTwo.JosVirtuemartInvoice>(i => i.VirtuemartInvoiceId,
+                                 "VirtuemartInvoiceId", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                    
+                     engine.MergeJoinTable<JosVirtuemartPaymentPlgAlatakMonetico
+                         , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgAlatakMonetico>(i => i.Id,
+                         "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                    
+                     engine.MergeJoinTable<JosVirtuemartPaymentPlgAlatakSip
+                         , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgAlatakSip>(i => i.Id,
+                         "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                     engine.MergeJoinTable<JosVirtuemartPaymentPlgPaypal
+                         , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgPaypal>(i => i.Id,
+                         "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                    
+                     engine.MergeJoinTable<JosVirtuemartPaymentPlgStandard
+                         , DatabaseTwo.DatabaseTwo.JosVirtuemartPaymentPlgStandard>(i => i.Id,
+                         "Id", new[] {new Pair {Name = "VirtuemartOrderId", Plus = maxOrder}});
+                    
+                     #endregion
                 }
                 catch (Exception e)
                 {

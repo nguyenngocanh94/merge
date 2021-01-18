@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj": {
+            "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

@@ -7,3 +7,6 @@ C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseOne.dll
 C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseOne.pdb
 C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.dll
 C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.pdb
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseTwo.dll
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseTwo.pdb
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.csproj.CopyComplete

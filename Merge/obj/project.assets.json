@@ -270,6 +270,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "DatabaseTwo": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
         },

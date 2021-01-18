@@ -208,6 +208,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "DatabaseTwo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
+        },
+        "compile": {
+          "bin/placeholder/DatabaseTwo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DatabaseTwo.dll": {}
+        }
       }
     }
   },
@@ -645,10 +659,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DatabaseTwo/1.0.0": {
+      "type": "project",
+      "path": "../DatabaseTwo/DatabaseTwo.csproj",
+      "msbuildProject": "../DatabaseTwo/DatabaseTwo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DatabaseTwo >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2"
     ]
@@ -678,7 +698,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\merge\\DatabaseTwo\\DatabaseTwo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
