@@ -132,7 +132,7 @@ namespace DatabaseTwo.DatabaseTwo
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseMySql("server=127.0.0.1;AllowZeroDateTime=True;convert zero datetime=True;database=db2;user=root;port=13301;password=password;treattinyasboolean=true", Microsoft.EntityFrameworkCore.ServerVersion.FromString("10.4.6-mariadb"));
+                optionsBuilder.UseMySql("server=127.0.0.1;AllowZeroDateTime=True;convert zero datetime=True;database=db2;user=root;port=3306;password=;treattinyasboolean=true", Microsoft.EntityFrameworkCore.ServerVersion.FromString("10.4.6-mariadb"));
             }
         }
 

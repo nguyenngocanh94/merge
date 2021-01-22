@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using DatabaseTwo.Extensions;
 
 #nullable disable
 
 namespace DatabaseTwo.DatabaseTwo
 {
-    public partial class JosVirtuemartCategoriesFrFr
+    public partial class JosVirtuemartCategoriesFrFr : EntityUtilities
     {
         public int VirtuemartCategoryId { get; set; }
         public string CategoryName { get; set; }

@@ -15,7 +15,9 @@ using JosUserUsergroupMap = DatabaseOne.DatabaseOne.JosUserUsergroupMap;
 using JosVirtuemartCalc = DatabaseOne.DatabaseOne.JosVirtuemartCalc;
 using JosVirtuemartCalcCategory = DatabaseOne.DatabaseOne.JosVirtuemartCalcCategory;
 using JosVirtuemartCart = DatabaseOne.DatabaseOne.JosVirtuemartCart;
-using JosVirtuemartCategory = DatabaseOne.DatabaseOne.JosVirtuemartCategory;
+ using JosVirtuemartCategoriesEnGb = DatabaseTwo.DatabaseTwo.JosVirtuemartCategoriesEnGb;
+ using JosVirtuemartCategoriesFrFr = DatabaseOne.DatabaseOne.JosVirtuemartCategoriesFrFr;
+ using JosVirtuemartCategory = DatabaseOne.DatabaseOne.JosVirtuemartCategory;
 using JosVirtuemartCategoryCategory = DatabaseOne.DatabaseOne.JosVirtuemartCategoryCategory;
 using JosVirtuemartCategoryMedia = DatabaseOne.DatabaseOne.JosVirtuemartCategoryMedia;
 using JosVirtuemartCustom = DatabaseOne.DatabaseOne.JosVirtuemartCustom;
@@ -77,7 +79,7 @@ namespace Merge
                     {
                         i.ParentId += maxJCategories;
                     }
-
+                
                     one.JosCategories.Add(iMapper.Map(i, new JosCategory()));
                 });
                 one.SaveChanges();
@@ -96,8 +98,8 @@ namespace Merge
                     }));
                 });
                 one.SaveChanges();
-
-
+                
+                
                 var engine = new Engine.Engine(one, two, iMapper);
                 var maxProduct =
                     engine
@@ -128,7 +130,7 @@ namespace Merge
                             .MergeStatic<JosVirtuemartManufacturer,
                                 DatabaseTwo.DatabaseTwo.JosVirtuemartManufacturer>(
                                 i => i.VirtuemartManufacturerId, "VirtuemartManufacturerId");
-
+                
                     // can run parallel
                     var maxMedia =
                         engine
@@ -158,12 +160,12 @@ namespace Merge
                     #region JosVirtuemartCategory language
                     
                     engine
-                        .MergeLanguage<JosVirtuemartCategory,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartCategory>(i => i.VirtuemartCategoryId,
+                        .MergeLanguage<JosVirtuemartCategoriesFrFr,
+                            DatabaseTwo.DatabaseTwo.JosVirtuemartCategoriesFrFr>(i => i.VirtuemartCategoryId,
                             "VirtuemartCategoryId", maxCategory);
                     engine
-                        .MergeLanguage<JosVirtuemartCategory,
-                            DatabaseTwo.DatabaseTwo.JosVirtuemartCategory>(i => i.VirtuemartCategoryId,
+                        .MergeLanguage<DatabaseOne.DatabaseOne.JosVirtuemartCategoriesEnGb,
+                            DatabaseTwo.DatabaseTwo.JosVirtuemartCategoriesEnGb>(i => i.VirtuemartCategoryId,
                             "VirtuemartCategoryId", maxCategory);
                     
                     #endregion
@@ -200,7 +202,7 @@ namespace Merge
                             (i => i.VirtuemartPaymentmethodId, "VirtuemartPaymentmethodId", maxPaymentMethod);
                     
                     #endregion
-
+                    
                     #region JosVirtuemartManufacturer language
                     
                     engine
@@ -225,9 +227,9 @@ namespace Merge
                             i => i.VirtuemartManufacturerId, "VirtuemartManufacturerId", maxManufacture);
                     
                     #endregion
-
                     
-
+                    
+                    
                     #region merge other type table
                     
                     engine
@@ -277,7 +279,7 @@ namespace Merge
                                 new Pair() {Name = "VirtuemartProductId", Plus = maxProduct},
                                 new Pair() {Name = "RelatedProducts", Plus = maxProduct}
                             });
-
+                    
                     engine
                         .MergeJoinTableCustom<JosVirtuemartProductCustomfield,
                             DatabaseTwo.DatabaseTwo.JosVirtuemartProductCustomfield>(
@@ -292,9 +294,9 @@ namespace Merge
                                 Name = "",
                                 Plus = maxMedia
                             });
-
+                    
                     #endregion
-
+                    
                      int maxCalc =
                          engine
                              .MergeStatic<JosVirtuemartCalc,

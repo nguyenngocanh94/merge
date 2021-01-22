@@ -5,7 +5,7 @@ using DatabaseOne.Extensions;
 
 namespace DatabaseOne.DatabaseOne
 {
-    public partial class JosVirtuemartCategoriesFrFr
+    public partial class JosVirtuemartCategoriesFrFr : EntityUtilities
     {
         public int VirtuemartCategoryId { get; set; }
         public string CategoryName { get; set; }
