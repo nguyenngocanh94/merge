@@ -1,11 +1,12 @@
 ﻿using System;
 using DatabaseOne.Extensions;
+using DatabaseTwo.DatabaseTwo;
 
 #nullable disable
 
 namespace DatabaseOne.DatabaseOne
 {
-    public partial class JosVirtuemartCategoriesEnGb : EntityUtilities
+    public partial class JosVirtuemartCategoriesEnGb : EntityUtilities , ISlug
     {
         public int VirtuemartCategoryId { get; set; }
         public string CategoryName { get; set; }

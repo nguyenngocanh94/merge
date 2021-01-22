@@ -6,7 +6,7 @@ using DatabaseTwo.Extensions;
 
 namespace DatabaseTwo.DatabaseTwo
 {
-    public partial class JosVirtuemartCategoriesEnGb : EntityUtilities
+    public partial class JosVirtuemartCategoriesEnGb : EntityUtilities, ISlug
     {
         public int VirtuemartCategoryId { get; set; }
         public string CategoryName { get; set; }
