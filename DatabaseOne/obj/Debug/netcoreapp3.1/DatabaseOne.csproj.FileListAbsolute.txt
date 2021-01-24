@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseOne.deps.json
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseOne.dll
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseOne.pdb
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseTwo.dll
+C:\Users\Admin\Desktop\merge\DatabaseOne\bin\Debug\netcoreapp3.1\DatabaseTwo.pdb
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.AssemblyInfo.cs
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.csproj.CopyComplete
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.dll
+C:\Users\Admin\Desktop\merge\DatabaseOne\obj\Debug\netcoreapp3.1\DatabaseOne.pdb

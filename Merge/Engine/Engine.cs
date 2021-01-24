@@ -196,6 +196,43 @@ namespace Merge.Engine
             return max;
         }
         
+        public int MergeJoinTableCustom2<T, V>(Func<T, int> findMax, string identity, Pair[] pairs, Pair last) where T : EntityUtilities, new() where V: DatabaseTwo.Extensions.EntityUtilities
+        {
+            int max;
+            try
+            {
+                max = findMax==null ? _databaseOneContext.Set<T>().Count() : _databaseOneContext.Set<T>().Max(findMax)+ 1;
+            }
+            catch (Exception e)
+            {
+                max = 1;
+            }
+            
+            List<V> list =  _databaseTwoContext.Set<V>().ToList();
+            list.ForEach(i =>
+            {
+                if (identity!=null)
+                {
+                    i[identity] += max;
+                }
+
+                foreach (var t in pairs)
+                {
+                    i[t.Name] += t.Plus;
+                }
+
+                if (i is IHiddenParam x)
+                {
+                    var media = x.GetHidden();
+                    x.SetHidden(media, last.Plus);
+                }
+                var temp =_mapper.Map(i, new T());
+                _databaseOneContext.Set<T>().Add(temp);
+            });
+            _databaseOneContext.SaveChanges();
+            return max;
+        }
+        
         public int MergeJoinTableS1<T, V>(Func<T, int> findMax, string identity, Pair[] pairs) where T : DatabaseOne.DatabaseOne.JosVirtuemartUserinfo, new() where V: DatabaseTwo.Extensions.EntityUtilities
         {
             int max;
