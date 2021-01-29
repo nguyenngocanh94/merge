@@ -133,7 +133,7 @@ namespace Merge
                     .MergeLanguage<JosVirtuemartProductsFrFr,
                         DatabaseTwo.DatabaseTwo.JosVirtuemartProductsFrFr>(i => i.VirtuemartProductId,
                         "VirtuemartProductId", maxProduct);
-                
+                Console.WriteLine(maxProduct);
                 #endregion
                 try
                 {
@@ -296,6 +296,11 @@ namespace Merge
                             {
                                 Name = "",
                                 Plus = maxMedia
+                            },
+                            new Pair
+                            {
+                                Name = "",
+                                Plus = maxProduct
                             });
                     
                     #endregion

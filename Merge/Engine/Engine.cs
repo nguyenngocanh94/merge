@@ -196,6 +196,57 @@ namespace Merge.Engine
             return max;
         }
         
+        public int MergeJoinTableCustom<T, V>(Func<T, int> findMax, string identity, Pair[] pairs, Pair last, Pair last2) where T : EntityUtilities, new() where V: DatabaseTwo.Extensions.EntityUtilities
+        {
+            int max;
+            try
+            {
+                max = findMax==null ? _databaseOneContext.Set<T>().Count() : _databaseOneContext.Set<T>().Max(findMax)+ 1;
+            }
+            catch (Exception e)
+            {
+                max = 1;
+            }
+            
+            List<V> list =  _databaseTwoContext.Set<V>().ToList();
+            list.ForEach(i =>
+            {
+                if (identity!=null)
+                {
+                    i[identity] += max;
+                }
+
+                foreach (var t in pairs)
+                {
+                    i[t.Name] += t.Plus;
+                }
+
+                if (i is IHiddenParam x)
+                {
+                    var media = x.GetHidden();
+                    x.SetHidden(media, last.Plus);
+                }
+
+                if (i is DatabaseTwo.DatabaseTwo.JosVirtuemartProductCustomfield ix)
+                {
+                    var customField = ix.CustomfieldValue;
+                    try
+                    {
+                        var productId = int.Parse(customField);
+                        ix.CustomfieldValue = productId + last2.Plus+"";
+                    }
+                    catch (Exception e)
+                    {
+                        // skip
+                    }
+                }
+                var temp =_mapper.Map(i, new T());
+                _databaseOneContext.Set<T>().Add(temp);
+            });
+            _databaseOneContext.SaveChanges();
+            return max;
+        }
+        
         public int MergeJoinTableCustom2<T, V>(Func<T, int> findMax, string identity, Pair[] pairs, Pair last) where T : EntityUtilities, new() where V: DatabaseTwo.Extensions.EntityUtilities
         {
             int max;

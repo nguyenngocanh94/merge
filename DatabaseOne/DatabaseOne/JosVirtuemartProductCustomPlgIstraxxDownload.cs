@@ -40,6 +40,7 @@ namespace DatabaseOne.DatabaseOne
         {
             if (goInt!= 0)
             {
+                double a = Math.Sqrt(5);
                 var replace = Message.Replace(goInt.ToString(), (goInt + plus).ToString());
                 Message = replace;
             }
