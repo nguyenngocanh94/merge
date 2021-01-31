@@ -11,23 +11,23 @@ namespace DatabaseOne.DatabaseOne
         public string FormName { get; set; }
         public string FormLayout { get; set; }
         public string FormLayoutName { get; set; }
-        public bool? LoadFormLayoutFramework { get; set; }
-        public bool? FormLayoutAutogenerate { get; set; }
-        public bool DisableSubmitButton { get; set; }
-        public bool RemoveCaptchaLogged { get; set; }
+        public int? LoadFormLayoutFramework { get; set; }
+        public int? FormLayoutAutogenerate { get; set; }
+        public int DisableSubmitButton { get; set; }
+        public int RemoveCaptchaLogged { get; set; }
         public string Css { get; set; }
         public string Js { get; set; }
         public string FormTitle { get; set; }
-        public bool? ShowFormTitle { get; set; }
-        public bool? Published { get; set; }
+        public int? ShowFormTitle { get; set; }
+        public int? Published { get; set; }
         public string Lang { get; set; }
         public string ReturnUrl { get; set; }
-        public bool? ShowSystemMessage { get; set; }
-        public bool? ShowThankyou { get; set; }
-        public bool ScrollToThankYou { get; set; }
-        public bool ThankYouMessagePopUp { get; set; }
+        public int? ShowSystemMessage { get; set; }
+        public int? ShowThankyou { get; set; }
+        public int ScrollToThankYou { get; set; }
+        public int ThankYouMessagePopUp { get; set; }
         public string Thankyou { get; set; }
-        public bool? ShowContinue { get; set; }
+        public int? ShowContinue { get; set; }
         public string UserEmailText { get; set; }
         public string UserEmailTo { get; set; }
         public string UserEmailCc { get; set; }
@@ -54,25 +54,25 @@ namespace DatabaseOne.DatabaseOne
         public string UserEmailScript { get; set; }
         public string AdminEmailScript { get; set; }
         public string AdditionalEmailsScript { get; set; }
-        public bool MetaTitle { get; set; }
+        public int MetaTitle { get; set; }
         public string MetaDesc { get; set; }
         public string MetaKeywords { get; set; }
         public string Required { get; set; }
         public string ErrorMessage { get; set; }
         public string MultipleSeparator { get; set; }
-        public bool? TextareaNewLines { get; set; }
+        public int? TextareaNewLines { get; set; }
         public string Cssclass { get; set; }
         public string Cssid { get; set; }
         public string Cssname { get; set; }
         public string Cssaction { get; set; }
         public string CssadditionalAttributes { get; set; }
-        public bool AjaxValidation { get; set; }
-        public bool ScrollToError { get; set; }
+        public int AjaxValidation { get; set; }
+        public int ScrollToError { get; set; }
         public string ThemeParams { get; set; }
-        public bool? Keepdata { get; set; }
-        public bool? KeepIp { get; set; }
-        public bool Backendmenu { get; set; }
-        public bool ConfirmSubmission { get; set; }
+        public int? Keepdata { get; set; }
+        public int? KeepIp { get; set; }
+        public int Backendmenu { get; set; }
+        public int ConfirmSubmission { get; set; }
         public string Access { get; set; }
     }
 }

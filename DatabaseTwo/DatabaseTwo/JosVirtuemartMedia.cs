@@ -18,14 +18,14 @@ namespace DatabaseTwo.DatabaseTwo
         public string FileType { get; set; }
         public string FileUrl { get; set; }
         public string FileUrlThumb { get; set; }
-        public bool FileIsProductImage { get; set; }
-        public bool FileIsDownloadable { get; set; }
-        public bool FileIsForSale { get; set; }
+        public int FileIsProductImage { get; set; }
+        public int FileIsDownloadable { get; set; }
+        public int FileIsForSale { get; set; }
         public string FileParams { get; set; }
         public string FileLang { get; set; }
         public int Ordering { get; set; }
-        public bool Shared { get; set; }
-        public bool? Published { get; set; }
+        public int Shared { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

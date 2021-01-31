@@ -12,7 +12,7 @@ namespace DatabaseOne.DatabaseOne
         public string CoreTitle { get; set; }
         public string CoreAlias { get; set; }
         public string CoreBody { get; set; }
-        public bool CoreState { get; set; }
+        public int CoreState { get; set; }
         public string CoreCheckedOutTime { get; set; }
         public int CoreCheckedOutUserId { get; set; }
         public int CoreAccess { get; set; }

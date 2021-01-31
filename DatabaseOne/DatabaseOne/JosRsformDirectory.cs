@@ -9,11 +9,11 @@ namespace DatabaseOne.DatabaseOne
     {
         public int FormId { get; set; }
         public string Filename { get; set; }
-        public bool Enablepdf { get; set; }
-        public bool Enablecsv { get; set; }
+        public int Enablepdf { get; set; }
+        public int Enablecsv { get; set; }
         public string ViewLayout { get; set; }
         public string ViewLayoutName { get; set; }
-        public bool ViewLayoutAutogenerate { get; set; }
+        public int ViewLayoutAutogenerate { get; set; }
         public string Css { get; set; }
         public string Js { get; set; }
         public string ListScript { get; set; }

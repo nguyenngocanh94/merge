@@ -11,9 +11,9 @@ namespace DatabaseOne.DatabaseOne
         public int VirtuemartOrderHistoryId { get; set; }
         public int VirtuemartOrderId { get; set; }
         public string OrderStatusCode { get; set; }
-        public bool CustomerNotified { get; set; }
+        public int CustomerNotified { get; set; }
         public string Comments { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

@@ -8,7 +8,7 @@ namespace DatabaseTwo.DatabaseTwo
     public partial class JosVirtuemartManufacturercategory
     {
         public int VirtuemartManufacturercategoriesId { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

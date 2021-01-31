@@ -8,7 +8,7 @@ namespace DatabaseTwo.DatabaseTwo
 {
     public partial class JosVirtuemartUserinfo : EntityUtilities
     {
-        public bool Tos { get; set; }
+        public int Tos { get; set; }
         public string CustomerNote { get; set; }
         public int VirtuemartUserinfoId { get; set; }
         public int VirtuemartUserId { get; set; }
@@ -29,7 +29,7 @@ namespace DatabaseTwo.DatabaseTwo
         public int VirtuemartStateId { get; set; }
         public int VirtuemartCountryId { get; set; }
         public string Zip { get; set; }
-        public bool Agreed { get; set; }
+        public int Agreed { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

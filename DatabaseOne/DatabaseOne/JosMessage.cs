@@ -12,7 +12,7 @@ namespace DatabaseOne.DatabaseOne
         public int UserIdTo { get; set; }
         public byte FolderId { get; set; }
         public DateTime DateTime { get; set; }
-        public bool State { get; set; }
+        public int State { get; set; }
         public byte Priority { get; set; }
         public string Subject { get; set; }
         public string Message { get; set; }

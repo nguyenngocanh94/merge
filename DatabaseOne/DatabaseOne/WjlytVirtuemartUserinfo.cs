@@ -26,7 +26,7 @@ namespace DatabaseOne.DatabaseOne
         public ushort VirtuemartStateId { get; set; }
         public ushort VirtuemartCountryId { get; set; }
         public string Zip { get; set; }
-        public bool Agreed { get; set; }
+        public int Agreed { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

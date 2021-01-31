@@ -26,8 +26,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cde112a-bd3f-461f-b35b-ac4dcdf0c657" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/shelf/Uncommitted_changes_before_Update_at_1_24_2021_1_30_PM_[Default_Changelist]/DatabaseOne.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/shelf/Uncommitted_changes_before_Update_at_1_24_2021_1_30_PM_[Default_Changelist]/Merge.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/shelf/Uncommitted_changes_before_Update_at_1_24_2021_1_30_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/shelf/Uncommitted_changes_before_Update_at_1_24_2021_1_30_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Merge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JobVirtuemartCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JobVirtuemartCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAdmintoolsRedirect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAdmintoolsRedirect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAimysitemap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAimysitemap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAimysitemapCrawl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosAimysitemapCrawl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosBanner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosContactDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosContactDetail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosDjimageslider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosDjimageslider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFieldsGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFieldsGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFinderFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFinderFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFinderLink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosFinderLink.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsMailq.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsMailq.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsSmily.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsSmily.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsVote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosJcommentsVote.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNewsfeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNewsfeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNextend2Smartslider3Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNextend2Smartslider3Slide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNextendSmartsliderSlide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosNextendSmartsliderSlide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformDirectory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformDirectory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformDirectoryField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformDirectoryField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformEmail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformEmail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformPost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformPost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformSubmission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformSubmission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformSubmissionColumn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosRsformSubmissionColumn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilderIntegration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilderIntegration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilderLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosSppagebuilderLanguage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosTag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosTag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosUcmContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosUcmContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartAdminmenuentry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartAdminmenuentry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCalc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCalc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCountry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCountry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCoupon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCoupon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCurrency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCurrency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCustom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartCustom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartManufacturer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartManufacturer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartManufacturercategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartManufacturercategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartMedia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartMedia.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderHistory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderHistory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderUserinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderUserinfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderstate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartOrderstate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPaymentPlgMoneybookersAcc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPaymentPlgMoneybookersAcc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPaymentmethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPaymentmethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPermgroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartPermgroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProduct.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomPlgIstraxxDownload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomPlgIstraxxDownload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductPrice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductPrice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartRating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartRating.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartRatingReview.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartRatingReview.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartShipmentmethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartShipmentmethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartShoppergroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartShoppergroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartUserfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartUserfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartUserinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartUserinfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartVmuser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartVmuser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartWaitinguser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartWaitinguser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartWorldzone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartWorldzone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosWeblink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosWeblink.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Banner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Banner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2ContactDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2ContactDetail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2FinderFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2FinderFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2FinderLink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2FinderLink.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Message.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Module.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Module.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Newsfeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Newsfeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Tag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2Tag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2UcmContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/Lyru2UcmContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/WjlytVirtuemartCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/WjlytVirtuemartCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/WjlytVirtuemartUserinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/DatabaseOne/WjlytVirtuemartUserinfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseOne.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseOne.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseOne.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseOne.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" afterDir="false" />
@@ -35,12 +117,41 @@
       <change beforePath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseOne/obj/Debug/netcoreapp3.1/DatabaseOne.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartAdminmenuentry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartAdminmenuentry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCalc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCalc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCountry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCountry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCoupon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCoupon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCurrency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCurrency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCustom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartCustom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartManufacturer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartManufacturer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartManufacturercategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartManufacturercategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartMedia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartMedia.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderHistory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderHistory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderUserinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderUserinfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderstate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartOrderstate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartPaymentmethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartPaymentmethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomPlgIstraxxDownload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomPlgIstraxxDownload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductPrice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductPrice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartRating.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartRating.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartRatingReview.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartRatingReview.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartShipmentmethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartShipmentmethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartShoppergroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartShoppergroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartUserfield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartUserfield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartUserinfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartUserinfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartVmuser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartVmuser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartWaitinguser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartWaitinguser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartWorldzone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartWorldzone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosWeblink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosWeblink.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseTwo/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseTwo/bin/Debug/netcoreapp3.1/DatabaseTwo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/bin/Debug/netcoreapp3.1/DatabaseTwo.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseTwo/obj/Debug/netcoreapp3.1/DatabaseTwo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/obj/Debug/netcoreapp3.1/DatabaseTwo.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatabaseTwo/obj/Debug/netcoreapp3.1/DatabaseTwo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseTwo/obj/Debug/netcoreapp3.1/DatabaseTwo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge/Engine/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Merge/Engine/Engine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Merge/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseOne.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseOne.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseOne.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseOne.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Merge/bin/Debug/netcoreapp3.1/DatabaseTwo.dll" afterDir="false" />
@@ -62,11 +173,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D2B0EF7B-A8C3-4AF1-95CC-501C0131D7BA/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/A8/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/Desktop/merge/DatabaseOne/DatabaseOne/DatabaseOneContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/DatabaseTwoContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DatabaseOne/DatabaseOne/DatabaseOneContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/Desktop/merge/DatabaseOne/DatabaseOne/DatabaseOneContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/2A/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9481D310-60CF-4AB5-BB18-EE2195E361A5/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AE604AFE-B657-4617-A94D-F2A743C6288E/96/IMapperConfigurationExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/Desktop/merge/DatabaseOne/DatabaseOne/Lyru2Message.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,12 +219,13 @@
         <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/IHiddenParam.cs" />
         <option value="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomfield.cs" />
         <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomfield.cs" />
-        <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/DatabaseTwoContext.cs" />
-        <option value="$PROJECT_DIR$/DatabaseOne/DatabaseOne/DatabaseOneContext.cs" />
         <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProductCustomPlgIstraxxDownload.cs" />
         <option value="$PROJECT_DIR$/DatabaseOne/DatabaseOne/JosVirtuemartProductCustomPlgIstraxxDownload.cs" />
         <option value="$PROJECT_DIR$/Merge/Engine/Engine.cs" />
+        <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/DatabaseTwoContext.cs" />
+        <option value="$PROJECT_DIR$/DatabaseOne/DatabaseOne/DatabaseOneContext.cs" />
         <option value="$PROJECT_DIR$/Merge/Program.cs" />
+        <option value="$PROJECT_DIR$/DatabaseTwo/DatabaseTwo/JosVirtuemartProduct.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +278,8 @@
       <workItem from="1610980913623" duration="5156000" />
       <workItem from="1611469815664" duration="3766000" />
       <workItem from="1611851779022" duration="311000" />
-      <workItem from="1611852587712" duration="917000" />
+      <workItem from="1611852587712" duration="1549000" />
+      <workItem from="1612102191024" duration="2428000" />
     </task>
     <servers />
   </component>
@@ -191,86 +308,90 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="420" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610209584351" />
-    <state width="1878" height="240" key="GridCell.Tab.0.bottom" timestamp="1611488668922">
+    <state x="187" y="87" key="DiffContextDialog" timestamp="1612106067844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.0.center" timestamp="1611488668922">
+    <state x="187" y="87" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612106067844" />
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1612106195679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.0.left" timestamp="1611488668922">
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612106195679" />
+    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1612106195679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.0.right" timestamp="1611488668922">
+    <state width="1878" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612106195679" />
+    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1612106195679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.1.bottom" timestamp="1611488668922">
+    <state width="1878" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612106195679" />
+    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1612106195679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.1.center" timestamp="1611488668922">
+    <state width="1878" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612106195679" />
+    <state width="1878" height="240" key="GridCell.Tab.1.bottom" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.1.left" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.1.center" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.1.right" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.1.left" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.2.bottom" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.1.right" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.2.center" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.2.bottom" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.2.left" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.2.center" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.2.right" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.2.left" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.3.bottom" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.2.right" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.3.center" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.3.bottom" timestamp="1612106189525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.3.left" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
+    <state width="1878" height="240" key="GridCell.Tab.3.center" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.3.right" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.3.left" timestamp="1612106189524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.4.bottom" timestamp="1611488668923">
+    <state width="1878" height="240" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189524" />
+    <state width="1878" height="240" key="GridCell.Tab.3.right" timestamp="1612106189525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668923" />
-    <state width="1878" height="240" key="GridCell.Tab.4.center" timestamp="1611488668923">
+    <state width="1878" height="240" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
+    <state width="1878" height="240" key="GridCell.Tab.4.bottom" timestamp="1612106189525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668923" />
-    <state width="1878" height="240" key="GridCell.Tab.4.left" timestamp="1611488668922">
+    <state width="1878" height="240" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
+    <state width="1878" height="240" key="GridCell.Tab.4.center" timestamp="1612106189525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668922" />
-    <state width="1878" height="240" key="GridCell.Tab.4.right" timestamp="1611488668923">
+    <state width="1878" height="240" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
+    <state width="1878" height="240" key="GridCell.Tab.4.left" timestamp="1612106189525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="240" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611488668923" />
+    <state width="1878" height="240" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
+    <state width="1878" height="240" key="GridCell.Tab.4.right" timestamp="1612106189525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="240" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612106189525" />
     <state x="553" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1610288233784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,6 +400,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="792" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611487656300" />
+    <state x="730" y="230" key="RollbackChangesDialog" timestamp="1612106121863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612106121863" />
     <state x="462" y="165" key="SettingsEditor" timestamp="1610211742009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,22 +412,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="966" height="526" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1610985621601" />
-    <state x="93" y="93" width="1733" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610216382025">
+    <state x="93" y="93" width="1733" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612106247647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="93" width="1733" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610216382025" />
+    <state x="93" y="93" width="1733" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612106247647" />
     <state x="778" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611469840109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="778" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611469840109" />
-    <state x="641" y="75" width="637" height="888" key="find.popup" timestamp="1610214593075">
+    <state x="641" y="75" width="637" height="888" key="find.popup" timestamp="1612105125493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="75" width="637" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610214593075" />
-    <state x="633" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1611915645318">
+    <state x="641" y="75" width="637" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612105125493" />
+    <state x="634" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1612105102728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611915645318" />
+    <state x="634" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612105102728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,10 +437,10 @@
           <line>33</line>
           <properties documentPath="C:\Users\Admin\Desktop\merge\DatabaseOne\DatabaseOne\JosVirtuemartProductCustomfield.cs" initialLine="33">
             <startOffsets>
-              <option value="1228" />
+              <option value="1227" />
             </startOffsets>
             <endOffsets>
-              <option value="1272" />
+              <option value="1271" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -325,10 +450,10 @@
           <line>46</line>
           <properties documentPath="C:\Users\Admin\Desktop\merge\DatabaseOne\DatabaseOne\JosVirtuemartProductCustomfield.cs" initialLine="46">
             <startOffsets>
-              <option value="1692" />
+              <option value="1691" />
             </startOffsets>
             <endOffsets>
-              <option value="1706" />
+              <option value="1705" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -338,10 +463,10 @@
           <line>25</line>
           <properties documentPath="C:\Users\Admin\Desktop\merge\DatabaseOne\DatabaseOne\JosVirtuemartProductCustomPlgIstraxxDownload.cs" initialLine="25">
             <startOffsets>
-              <option value="881" />
+              <option value="880" />
             </startOffsets>
             <endOffsets>
-              <option value="915" />
+              <option value="914" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
@@ -351,10 +476,10 @@
           <line>27</line>
           <properties documentPath="C:\Users\Admin\Desktop\merge\DatabaseOne\DatabaseOne\JosVirtuemartProductCustomPlgIstraxxDownload.cs" initialLine="27">
             <startOffsets>
-              <option value="946" />
+              <option value="945" />
             </startOffsets>
             <endOffsets>
-              <option value="1005" />
+              <option value="1004" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="17" />
@@ -372,8 +497,40 @@
           </properties>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Merge/Program.cs</url>
+          <line>120</line>
+          <properties documentPath="C:\Users\Admin\Desktop\merge\Merge\Program.cs" initialLine="120">
+            <startOffsets>
+              <option value="7101" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7382" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Merge/Engine/Engine.cs</url>
+          <line>95</line>
+          <properties documentPath="C:\Users\Admin\Desktop\merge\Merge\Engine\Engine.cs" initialLine="95">
+            <startOffsets>
+              <option value="3732" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3786" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#Merge.Program.Main" memberName="x1" />
+        <PinnedItemInfo parentTag="Frame#Merge.Program.Main" memberName="args" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="DotNetProject">
         <watch expression="CustomfieldParams" language="C#" />

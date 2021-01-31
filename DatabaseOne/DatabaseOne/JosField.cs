@@ -18,8 +18,8 @@ namespace DatabaseOne.DatabaseOne
         public string Type { get; set; }
         public string Note { get; set; }
         public string Description { get; set; }
-        public bool State { get; set; }
-        public bool Required { get; set; }
+        public int State { get; set; }
+        public int Required { get; set; }
         public int CheckedOut { get; set; }
         public DateTime CheckedOutTime { get; set; }
         public int Ordering { get; set; }

@@ -24,7 +24,7 @@ namespace DatabaseOne.DatabaseOne
         public int Ordering { get; set; }
         public string Metakey { get; set; }
         public string Params { get; set; }
-        public bool OwnPrefix { get; set; }
+        public int OwnPrefix { get; set; }
         public string MetakeyPrefix { get; set; }
         public sbyte PurchaseType { get; set; }
         public sbyte TrackClicks { get; set; }

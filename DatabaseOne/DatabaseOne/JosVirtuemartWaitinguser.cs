@@ -11,7 +11,7 @@ namespace DatabaseOne.DatabaseOne
         public int VirtuemartProductId { get; set; }
         public int VirtuemartUserId { get; set; }
         public string NotifyEmail { get; set; }
-        public bool Notified { get; set; }
+        public int Notified { get; set; }
         public DateTime NotifyDate { get; set; }
         public int Ordering { get; set; }
         public DateTime CreatedOn { get; set; }

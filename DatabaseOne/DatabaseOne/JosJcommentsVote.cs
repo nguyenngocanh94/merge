@@ -12,6 +12,6 @@ namespace DatabaseOne.DatabaseOne
         public int Userid { get; set; }
         public string Ip { get; set; }
         public DateTime Date { get; set; }
-        public bool Value { get; set; }
+        public int Value { get; set; }
     }
 }

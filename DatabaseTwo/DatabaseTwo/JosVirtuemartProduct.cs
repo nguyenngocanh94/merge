@@ -26,7 +26,7 @@ namespace DatabaseTwo.DatabaseTwo
         public int LowStockNotification { get; set; }
         public DateTime ProductAvailableDate { get; set; }
         public string ProductAvailability { get; set; }
-        public bool? ProductSpecial { get; set; }
+        public int? ProductSpecial { get; set; }
         public int ProductSales { get; set; }
         public string ProductUnit { get; set; }
         public decimal? ProductPackaging { get; set; }
@@ -36,7 +36,7 @@ namespace DatabaseTwo.DatabaseTwo
         public string Metarobot { get; set; }
         public string Metaauthor { get; set; }
         public string Layout { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public int Pordering { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }

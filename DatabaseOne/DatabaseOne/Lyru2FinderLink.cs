@@ -14,7 +14,7 @@ namespace DatabaseOne.DatabaseOne
         public string Description { get; set; }
         public DateTime Indexdate { get; set; }
         public string Md5sum { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public int? State { get; set; }
         public int? Access { get; set; }
         public string Language { get; set; }

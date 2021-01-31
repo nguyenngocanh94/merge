@@ -21,8 +21,8 @@ namespace DatabaseOne.DatabaseOne
         public string CurrencyPositiveStyle { get; set; }
         public string CurrencyNegativeStyle { get; set; }
         public int Ordering { get; set; }
-        public bool? Shared { get; set; }
-        public bool? Published { get; set; }
+        public int? Shared { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

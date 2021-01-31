@@ -11,7 +11,7 @@ namespace DatabaseOne.DatabaseOne
         public string Source { get; set; }
         public string Dest { get; set; }
         public long Ordering { get; set; }
-        public bool? Published { get; set; }
-        public bool? Keepurlparams { get; set; }
+        public int? Published { get; set; }
+        public int? Keepurlparams { get; set; }
     }
 }

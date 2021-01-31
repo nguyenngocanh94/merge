@@ -14,7 +14,7 @@ namespace DatabaseOne.DatabaseOne
         public string Extension { get; set; }
         public string ExtensionView { get; set; }
         public long ViewId { get; set; }
-        public bool Active { get; set; }
+        public int Active { get; set; }
         public sbyte Published { get; set; }
         public int Catid { get; set; }
         public int Access { get; set; }

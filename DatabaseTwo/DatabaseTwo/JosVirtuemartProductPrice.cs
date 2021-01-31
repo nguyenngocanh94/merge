@@ -12,7 +12,7 @@ namespace DatabaseTwo.DatabaseTwo
         public int VirtuemartProductId { get; set; }
         public int VirtuemartShoppergroupId { get; set; }
         public decimal? ProductPrice { get; set; }
-        public bool? Override { get; set; }
+        public int? Override { get; set; }
         public decimal? ProductOverridePrice { get; set; }
         public int? ProductTaxId { get; set; }
         public int? ProductDiscountId { get; set; }

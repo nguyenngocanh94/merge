@@ -12,7 +12,7 @@ namespace DatabaseOne.DatabaseOne
         public string Alias { get; set; }
         public string Image { get; set; }
         public string Name { get; set; }
-        public bool Published { get; set; }
+        public int Published { get; set; }
         public int Ordering { get; set; }
         public int CheckedOut { get; set; }
         public DateTime CheckedOutTime { get; set; }

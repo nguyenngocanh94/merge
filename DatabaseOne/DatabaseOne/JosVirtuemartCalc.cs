@@ -17,15 +17,15 @@ namespace DatabaseOne.DatabaseOne
         public string CalcValueMathop { get; set; }
         public decimal CalcValue { get; set; }
         public ushort CalcCurrency { get; set; }
-        public bool CalcShopperPublished { get; set; }
-        public bool CalcVendorPublished { get; set; }
+        public int CalcShopperPublished { get; set; }
+        public int CalcVendorPublished { get; set; }
         public DateTime PublishUp { get; set; }
         public DateTime PublishDown { get; set; }
-        public bool ForOverride { get; set; }
+        public int ForOverride { get; set; }
         public string CalcParams { get; set; }
         public int Ordering { get; set; }
-        public bool Shared { get; set; }
-        public bool? Published { get; set; }
+        public int Shared { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

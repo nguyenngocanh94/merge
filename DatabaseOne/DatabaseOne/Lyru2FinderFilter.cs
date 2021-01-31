@@ -10,7 +10,7 @@ namespace DatabaseOne.DatabaseOne
         public int FilterId { get; set; }
         public string Title { get; set; }
         public string Alias { get; set; }
-        public bool? State { get; set; }
+        public int? State { get; set; }
         public DateTime Created { get; set; }
         public int CreatedBy { get; set; }
         public string CreatedByAlias { get; set; }

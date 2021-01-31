@@ -11,6 +11,6 @@ namespace DatabaseOne.DatabaseOne
         public int FormId { get; set; }
         public int ComponentTypeId { get; set; }
         public int Order { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
     }
 }

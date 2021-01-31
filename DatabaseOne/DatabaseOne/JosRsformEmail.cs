@@ -17,7 +17,7 @@ namespace DatabaseOne.DatabaseOne
         public string Cc { get; set; }
         public string Bcc { get; set; }
         public string Subject { get; set; }
-        public bool Mode { get; set; }
+        public int Mode { get; set; }
         public string Message { get; set; }
     }
 }

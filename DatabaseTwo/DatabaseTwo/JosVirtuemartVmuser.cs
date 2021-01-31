@@ -10,12 +10,12 @@ namespace DatabaseTwo.DatabaseTwo
     {
         public int VirtuemartUserId { get; set; }
         public int VirtuemartVendorId { get; set; }
-        public bool UserIsVendor { get; set; }
+        public int UserIsVendor { get; set; }
         public string CustomerNumber { get; set; }
         public string Perms { get; set; }
         public int? VirtuemartPaymentmethodId { get; set; }
         public int? VirtuemartShipmentmethodId { get; set; }
-        public bool Agreed { get; set; }
+        public int Agreed { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

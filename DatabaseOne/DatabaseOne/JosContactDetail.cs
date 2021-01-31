@@ -22,7 +22,7 @@ namespace DatabaseOne.DatabaseOne
         public string Image { get; set; }
         public string EmailTo { get; set; }
         public byte DefaultCon { get; set; }
-        public bool Published { get; set; }
+        public int Published { get; set; }
         public int CheckedOut { get; set; }
         public DateTime CheckedOutTime { get; set; }
         public int Ordering { get; set; }

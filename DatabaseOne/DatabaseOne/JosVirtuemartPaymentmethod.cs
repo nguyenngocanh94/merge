@@ -14,9 +14,9 @@ namespace DatabaseOne.DatabaseOne
         public string Slug { get; set; }
         public string PaymentElement { get; set; }
         public string PaymentParams { get; set; }
-        public bool Shared { get; set; }
+        public int Shared { get; set; }
         public int Ordering { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

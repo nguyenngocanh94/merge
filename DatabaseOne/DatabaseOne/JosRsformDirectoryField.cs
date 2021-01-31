@@ -9,11 +9,11 @@ namespace DatabaseOne.DatabaseOne
     {
         public int FormId { get; set; }
         public int ComponentId { get; set; }
-        public bool Viewable { get; set; }
-        public bool Searchable { get; set; }
-        public bool Editable { get; set; }
-        public bool Indetails { get; set; }
-        public bool Incsv { get; set; }
+        public int Viewable { get; set; }
+        public int Searchable { get; set; }
+        public int Editable { get; set; }
+        public int Indetails { get; set; }
+        public int Incsv { get; set; }
         public int Ordering { get; set; }
     }
 }

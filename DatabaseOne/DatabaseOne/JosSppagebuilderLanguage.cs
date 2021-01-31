@@ -13,6 +13,6 @@ namespace DatabaseOne.DatabaseOne
         public string LangTag { get; set; }
         public string LangKey { get; set; }
         public string Version { get; set; }
-        public bool State { get; set; }
+        public int State { get; set; }
     }
 }

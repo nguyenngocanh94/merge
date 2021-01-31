@@ -15,7 +15,7 @@ namespace DatabaseTwo.DatabaseTwo
         public string Depends { get; set; }
         public string IconClass { get; set; }
         public int Ordering { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public string Tooltip { get; set; }
         public string View { get; set; }
         public string Task { get; set; }

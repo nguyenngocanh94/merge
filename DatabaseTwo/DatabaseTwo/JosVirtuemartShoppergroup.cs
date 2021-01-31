@@ -11,13 +11,13 @@ namespace DatabaseTwo.DatabaseTwo
         public short VirtuemartVendorId { get; set; }
         public string ShopperGroupName { get; set; }
         public string ShopperGroupDesc { get; set; }
-        public bool SgrpAdditional { get; set; }
+        public int SgrpAdditional { get; set; }
         public int Ordering { get; set; }
-        public bool CustomPriceDisplay { get; set; }
+        public int CustomPriceDisplay { get; set; }
         public byte[] PriceDisplay { get; set; }
-        public bool Default { get; set; }
-        public bool Shared { get; set; }
-        public bool? Published { get; set; }
+        public int Default { get; set; }
+        public int Shared { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

@@ -18,7 +18,7 @@ namespace DatabaseOne.DatabaseOne
         public DateTime CheckedOutTime { get; set; }
         public DateTime PublishUp { get; set; }
         public DateTime PublishDown { get; set; }
-        public bool Published { get; set; }
+        public int Published { get; set; }
         public string Module { get; set; }
         public int Access { get; set; }
         public byte Showtitle { get; set; }

@@ -13,8 +13,8 @@ namespace DatabaseOne.DatabaseOne
         public float Priority { get; set; }
         public long Mtime { get; set; }
         public string Lang { get; set; }
-        public bool State { get; set; }
-        public bool Lock { get; set; }
+        public int State { get; set; }
+        public int Lock { get; set; }
         public string Changefreq { get; set; }
     }
 }

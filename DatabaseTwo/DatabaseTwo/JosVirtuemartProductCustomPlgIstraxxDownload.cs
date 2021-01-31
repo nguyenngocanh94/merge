@@ -11,7 +11,7 @@ namespace DatabaseTwo.DatabaseTwo
         public int Id { get; set; }
         public int? VirtuemartOrderItemId { get; set; }
         public string ClientIp { get; set; }
-        public bool? Errorcode { get; set; }
+        public int? Errorcode { get; set; }
         public string Message { get; set; }
         public int? VirtuemartProductId { get; set; }
         public DateTime CreatedOn { get; set; }

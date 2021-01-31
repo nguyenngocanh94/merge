@@ -21,17 +21,17 @@ namespace DatabaseOne.DatabaseOne
         public int? Rows { get; set; }
         public string Value { get; set; }
         public string Default { get; set; }
-        public bool Registration { get; set; }
-        public bool Shipment { get; set; }
-        public bool? Account { get; set; }
-        public bool Cart { get; set; }
-        public bool Readonly { get; set; }
-        public bool Calculated { get; set; }
+        public int Registration { get; set; }
+        public int Shipment { get; set; }
+        public int? Account { get; set; }
+        public int Cart { get; set; }
+        public int Readonly { get; set; }
+        public int Calculated { get; set; }
         public sbyte Sys { get; set; }
         public string UserfieldParams { get; set; }
         public int Ordering { get; set; }
-        public bool Shared { get; set; }
-        public bool? Published { get; set; }
+        public int Shared { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

@@ -11,7 +11,7 @@ namespace DatabaseTwo.DatabaseTwo
         public int VirtuemartManufacturerId { get; set; }
         public int? VirtuemartManufacturercategoriesId { get; set; }
         public int Hits { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

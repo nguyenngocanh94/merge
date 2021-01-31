@@ -13,8 +13,8 @@ namespace DatabaseOne.DatabaseOne
         public string Subject { get; set; }
         public string Body { get; set; }
         public DateTime Created { get; set; }
-        public bool Attempts { get; set; }
-        public bool Priority { get; set; }
+        public int Attempts { get; set; }
+        public int Priority { get; set; }
         public string SessionId { get; set; }
     }
 }

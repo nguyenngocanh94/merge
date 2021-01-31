@@ -14,7 +14,7 @@ namespace DatabaseTwo.DatabaseTwo
         public string Url { get; set; }
         public string Description { get; set; }
         public int Hits { get; set; }
-        public bool State { get; set; }
+        public int State { get; set; }
         public int CheckedOut { get; set; }
         public DateTime CheckedOutTime { get; set; }
         public int Ordering { get; set; }

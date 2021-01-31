@@ -10,13 +10,13 @@ namespace DatabaseTwo.DatabaseTwo
         public int VirtuemartRatingReviewId { get; set; }
         public int VirtuemartProductId { get; set; }
         public string Comment { get; set; }
-        public bool ReviewOk { get; set; }
+        public int ReviewOk { get; set; }
         public int ReviewRates { get; set; }
         public int ReviewRatingcount { get; set; }
         public decimal ReviewRating { get; set; }
-        public bool? ReviewEditable { get; set; }
+        public int? ReviewEditable { get; set; }
         public string Lastip { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

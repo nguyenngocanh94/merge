@@ -12,7 +12,7 @@ namespace DatabaseOne.DatabaseOne
         public int Slider { get; set; }
         public DateTime PublishUp { get; set; }
         public DateTime PublishDown { get; set; }
-        public bool Published { get; set; }
+        public int Published { get; set; }
         public int First { get; set; }
         public string Slide { get; set; }
         public string Description { get; set; }

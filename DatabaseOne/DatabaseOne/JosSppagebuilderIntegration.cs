@@ -12,6 +12,6 @@ namespace DatabaseOne.DatabaseOne
         public string Description { get; set; }
         public string Component { get; set; }
         public string Plugin { get; set; }
-        public bool State { get; set; }
+        public int State { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace DatabaseTwo.DatabaseTwo
         public string ProductSku { get; set; }
         public string ProductGtin { get; set; }
         public string ProductMpn { get; set; }
-        public bool? Published { get; set; }
+        public int? Published { get; set; }
         public DateTime CreatedOn { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedOn { get; set; }

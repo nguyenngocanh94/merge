@@ -26,7 +26,7 @@ namespace DatabaseOne.DatabaseOne
         public string MbRecPaymentType { get; set; }
         public decimal? MbAmount { get; set; }
         public string MbCurrency { get; set; }
-        public bool? MbStatus { get; set; }
+        public int? MbStatus { get; set; }
         public string MbMd5sig { get; set; }
         public string MbSha2sig { get; set; }
         public string MbresponseRaw { get; set; }

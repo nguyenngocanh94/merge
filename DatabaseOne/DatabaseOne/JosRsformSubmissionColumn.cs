@@ -9,6 +9,6 @@ namespace DatabaseOne.DatabaseOne
     {
         public int FormId { get; set; }
         public string ColumnName { get; set; }
-        public bool ColumnStatic { get; set; }
+        public int ColumnStatic { get; set; }
     }
 }

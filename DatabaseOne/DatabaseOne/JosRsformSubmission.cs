@@ -14,6 +14,6 @@ namespace DatabaseOne.DatabaseOne
         public string Username { get; set; }
         public string UserId { get; set; }
         public string Lang { get; set; }
-        public bool Confirmed { get; set; }
+        public int Confirmed { get; set; }
     }
 }
